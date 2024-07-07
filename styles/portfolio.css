@@ -1,0 +1,95 @@
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+
+/* text shared */
+.text-primary{
+    color: rgb(253, 110, 10);
+  }
+
+  
+  nav ul li{
+    list-style: none;
+    margin-right: 50px;
+  }
+
+
+  nav li a{
+    text-decoration: none;
+  }
+
+
+  .dark-2{
+    color: rgb(71, 71, 71);
+  }
+
+  nav ul{
+    display: flex;
+    align-items: center;
+  }
+
+  
+.btn-1{
+    background-color:rgb(253, 110, 10);
+    font-weight: 700;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+  
+/* banner styles */
+.banner-greetings .dark-2{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+}
+
+/* banner titles */
+   .banner-title{
+    font-size: 85px;
+    font-weight: 700px;
+   }
+   /* banner prifile */
+   .banner-profile-picture{
+    width: 584px;
+    height: 676px;
+   }
+
+   /* banner */
+   .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 0 200px;
+   }
+
+   /* banner-content */
+   .banner-content{
+    max-width: 585px;
+   }
+
+   /* header  */
+  .developer{
+    background-image:url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
